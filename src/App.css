@@ -1,0 +1,49 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+	position: fixed;
+	bottom: 0;right:0;
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.App-NavBar {
+	text-align:left;
+	/*border-bottom: 1px solid #eeeeee;*/
+	display:flex;
+	background: #feffff;
+	background: -moz-linear-gradient(top, #feffff 0%, #ddf1f9 35%, #a0d8ef 100%);
+	background: -webkit-linear-gradient(top, #feffff 0%,#ddf1f9 35%,#a0d8ef 100%);
+	background: linear-gradient(to bottom, #feffff 0%,#ddf1f9 35%,#a0d8ef 100%);
+}
+
+.NavBarSpace {
+	flex:1;
+}
+.NavBarTray {
+	display:inline-block;
+	border:1px solid #eeeeee;
+	padding:0 10px;
+}
+
+.IconFxHover {
+	cursor: pointer;
+}

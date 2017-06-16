@@ -1,0 +1,13 @@
+.Menu{
+	position:absolute;
+	border:1px solid #eeeeee;
+	background:#ffffff;
+}
+.MenuButton{
+	display:inline-block;
+	cursor:pointer;
+	outline:none;
+}
+.MenuButton:hover,.MenuButton:focus{
+	box-shadow:2px 2px 2px 0 #dddddd;
+}

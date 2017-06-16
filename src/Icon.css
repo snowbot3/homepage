@@ -1,0 +1,28 @@
+.Icon {
+	display:inline-block;
+	text-align:center;
+	margin:0;
+	padding:0;
+	vertical-align:middle;
+}
+.IconInner {
+	display:inline-block;
+}
+
+.IconFxSpin {
+	animation: IconFxSpin infinite 10s linear;
+}
+@keyframes IconFxSpin {
+	from { transform: rotate(360deg); }
+	to { transform: rotate(0deg); }
+}
+
+.IconFxShake {
+	animation: IconFxShake infinite 1s linear;
+}
+@keyframes IconFxShake {
+	from { transform: rotate(0deg); }
+	25% { transform: rotate(-5deg); }
+	75% { transform: rotate(5deg); }
+	to { transform: rotate(0deg); }
+}
